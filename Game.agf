@@ -1285,7 +1285,7 @@
               <BorderColor>2</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>58</BackgroundImage>
+              <BackgroundImage>79</BackgroundImage>
               <ID>6</ID>
               <Name>gOrgue</Name>
             </NormalGUI>
@@ -1302,12 +1302,12 @@
                 <MouseoverImage>67</MouseoverImage>
                 <Image>0</Image>
                 <Text />
-                <Height>11</Height>
+                <Height>10</Height>
                 <Locked>False</Locked>
-                <Width>15</Width>
-                <Left>45</Left>
-                <Top>55</Top>
-                <ZOrder>0</ZOrder>
+                <Width>11</Width>
+                <Left>44</Left>
+                <Top>60</Top>
+                <ZOrder>8</ZOrder>
                 <ID>0</ID>
                 <Name>bPianoC1</Name>
                 <Clickable>True</Clickable>
@@ -1331,7 +1331,7 @@
                 <Width>15</Width>
                 <Left>57</Left>
                 <Top>65</Top>
-                <ZOrder>1</ZOrder>
+                <ZOrder>9</ZOrder>
                 <ID>1</ID>
                 <Name>bPianoD1</Name>
                 <Clickable>True</Clickable>
@@ -1355,7 +1355,7 @@
                 <Width>15</Width>
                 <Left>67</Left>
                 <Top>74</Top>
-                <ZOrder>2</ZOrder>
+                <ZOrder>10</ZOrder>
                 <ID>2</ID>
                 <Name>bPianoE1</Name>
                 <Clickable>True</Clickable>
@@ -1379,7 +1379,7 @@
                 <Width>15</Width>
                 <Left>80</Left>
                 <Top>83</Top>
-                <ZOrder>3</ZOrder>
+                <ZOrder>11</ZOrder>
                 <ID>3</ID>
                 <Name>bPianoF1</Name>
                 <Clickable>True</Clickable>
@@ -1403,7 +1403,7 @@
                 <Width>15</Width>
                 <Left>90</Left>
                 <Top>93</Top>
-                <ZOrder>4</ZOrder>
+                <ZOrder>12</ZOrder>
                 <ID>4</ID>
                 <Name>bPianoG1</Name>
                 <Clickable>True</Clickable>
@@ -1427,7 +1427,7 @@
                 <Width>15</Width>
                 <Left>101</Left>
                 <Top>104</Top>
-                <ZOrder>5</ZOrder>
+                <ZOrder>13</ZOrder>
                 <ID>5</ID>
                 <Name>bPianoA1</Name>
                 <Clickable>True</Clickable>
@@ -1451,7 +1451,7 @@
                 <Width>15</Width>
                 <Left>115</Left>
                 <Top>114</Top>
-                <ZOrder>6</ZOrder>
+                <ZOrder>14</ZOrder>
                 <ID>6</ID>
                 <Name>bPianoB1</Name>
                 <Clickable>True</Clickable>
@@ -1475,7 +1475,7 @@
                 <Width>15</Width>
                 <Left>129</Left>
                 <Top>126</Top>
-                <ZOrder>7</ZOrder>
+                <ZOrder>15</ZOrder>
                 <ID>7</ID>
                 <Name>bPianoC2</Name>
                 <Clickable>True</Clickable>
@@ -1499,10 +1499,202 @@
                 <Width>27</Width>
                 <Left>3</Left>
                 <Top>3</Top>
-                <ZOrder>8</ZOrder>
+                <ZOrder>16</ZOrder>
                 <ID>8</ID>
                 <Name>bBack</Name>
                 <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>71</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>52</Height>
+                <Locked>False</Locked>
+                <Width>80</Width>
+                <Left>38</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>9</ID>
+                <Name>bToucheC1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>72</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>53</Height>
+                <Locked>False</Locked>
+                <Width>81</Width>
+                <Left>50</Left>
+                <Top>26</Top>
+                <ZOrder>1</ZOrder>
+                <ID>10</ID>
+                <Name>bToucheD1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>73</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>53</Height>
+                <Locked>False</Locked>
+                <Width>85</Width>
+                <Left>62</Left>
+                <Top>35</Top>
+                <ZOrder>2</ZOrder>
+                <ID>11</ID>
+                <Name>bToucheE1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>74</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>58</Height>
+                <Locked>False</Locked>
+                <Width>79</Width>
+                <Left>73</Left>
+                <Top>40</Top>
+                <ZOrder>3</ZOrder>
+                <ID>12</ID>
+                <Name>bToucheF1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>75</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>58</Height>
+                <Locked>False</Locked>
+                <Width>82</Width>
+                <Left>85</Left>
+                <Top>50</Top>
+                <ZOrder>4</ZOrder>
+                <ID>13</ID>
+                <Name>bToucheG1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>76</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>59</Height>
+                <Locked>False</Locked>
+                <Width>85</Width>
+                <Left>98</Left>
+                <Top>60</Top>
+                <ZOrder>5</ZOrder>
+                <ID>14</ID>
+                <Name>bToucheA1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>77</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>59</Height>
+                <Locked>False</Locked>
+                <Width>88</Width>
+                <Left>111</Left>
+                <Top>72</Top>
+                <ZOrder>6</ZOrder>
+                <ID>15</ID>
+                <Name>bToucheB1</Name>
+                <Clickable>False</Clickable>
+                <Enabled>True</Enabled>
+                <Visible>True</Visible>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>78</Image>
+                <Text />
+                <Height>122</Height>
+                <Locked>False</Locked>
+                <Width>109</Width>
+                <Left>23</Left>
+                <Top>50</Top>
+                <ZOrder>7</ZOrder>
+                <ID>16</ID>
+                <Name>bFont</Name>
+                <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Visible>True</Visible>
               </GUIButton>
@@ -5115,6 +5307,146 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Piano">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="71" Width="80" Height="52" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>52</ImportHeight>
+                  <ImportWidth>80</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="81" Height="53" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 3.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>53</ImportHeight>
+                  <ImportWidth>81</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="85" Height="53" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 4.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>53</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="79" Height="58" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 5.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>58</ImportHeight>
+                  <ImportWidth>79</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="82" Height="58" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 6.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>58</ImportHeight>
+                  <ImportWidth>82</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="85" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 7.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>59</ImportHeight>
+                  <ImportWidth>85</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="77" Width="88" Height="59" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 8.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>59</ImportHeight>
+                  <ImportWidth>88</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="78" Width="109" Height="122" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\Calque 9.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>122</ImportHeight>
+                  <ImportWidth>109</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\pierr\Desktop\Saint Sauveur\piano2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>200</ImportHeight>
+                  <ImportWidth>320</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -6294,6 +6626,30 @@ return
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>Piano.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>530119474</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>Piano.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>530119474</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
