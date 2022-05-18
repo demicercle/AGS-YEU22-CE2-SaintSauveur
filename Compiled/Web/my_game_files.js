@@ -1,0 +1,1 @@
+var gamefiles = ['audio.vox', 'SaintSauveur.ags', 'speech.vox', 'acsetup.cfg'];
